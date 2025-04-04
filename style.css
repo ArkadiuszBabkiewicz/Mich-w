@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+#gora{
+    display: flex;
+    
+    text-align: center;
+    height: 100%;
+    background-color:crimson;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h2,h3,h4,p{
+    color: white;
+}
+img{
+    width: 1200px;
+    height: 370px;
+    align-self: center;
+}
+#przyciski{
+    display: flex;
+    align-items: center;
+    background-color: crimson;
+    height: 200px;
+    width: 2000px;
+    flex-direction: row;
+   
+    
+    
+}
+button{
+    width: 200px;
+    height: 160px;
+    background-color:crimson;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    
+    
+}
+button:hover{
+    border: 3px solid white;
+    border-radius: 5px;
+    
+}
+#dol{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    background-color:whitesmoke;
+}
